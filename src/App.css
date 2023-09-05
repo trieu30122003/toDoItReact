@@ -1,7 +1,8 @@
-.App {
-  text-align: center;
-}
-
+ /* .App {
+  padding: 10px;
+  margin: 10px;
+} */
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +36,66 @@
   to {
     transform: rotate(360deg);
   }
+} */
+label{
+  color: white;
+}
+#txtId:hover{
+  text-decoration: line-through;
+  color: rgb(182, 6, 6);
+  background-color: blue;
+}
+input {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+table>tbody>tr>td:hover{
+  color:deeppink;
+}
+table>thead>tr>th:hover{
+  color: mediumslateblue;
+}
+.pagination{
+  /* border: solid 2px deeppink; */
+  width: 130px;
+  /* background-color: white; */
+  padding: 10px;
+  margin-left: 510px;
+  
+}
+.prev{
+  /* border: solid 1px; */
+  color: chartreuse;
+  text-decoration: none;
+}
+.next{
+  /* border: solid 1px; */
+  color: chartreuse;
+  text-decoration: none;
+  width: 0px;
+}
+.page{
+  text-decoration: none;
+  margin: 10px;
+  border: solid 1px;
+  color: aqua;
+}
+.page:hover{
+  background-color: deeppink;
+}
+#down{
+  position: fixed;
+  border: solid 1px;
+  border-radius: 100px;
+  color: darkorchid;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+#down:hover{
+  background-color: white;
+  opacity: 1;
+}
+#load{
+  text-decoration: none;
+  color: black;
 }
